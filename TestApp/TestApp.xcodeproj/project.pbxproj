@@ -21,6 +21,10 @@
 		0ACACA891B52E519007FC5DB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACACA881B52E519007FC5DB /* MobileCoreServices.framework */; };
 		0ACACA8B1B52E51D007FC5DB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACACA8A1B52E51D007FC5DB /* CoreData.framework */; };
 		0ACACA8C1B52E520007FC5DB /* libRestKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACACA7F1B52E4F5007FC5DB /* libRestKit.a */; };
+		0ACACA8F1B52E76D007FC5DB /* EmployeeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ACACA8E1B52E76D007FC5DB /* EmployeeViewController.m */; };
+		0ACACAC51B52E901007FC5DB /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACACABC1B52E8E3007FC5DB /* libSDWebImage.a */; };
+		0ACACAC71B52E90B007FC5DB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0ACACAC61B52E90A007FC5DB /* ImageIO.framework */; };
+		0ACACAC91B52E96F007FC5DB /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0ACACAC81B52E96F007FC5DB /* placeholder@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +63,41 @@
 			remoteGlobalIDString = 25160D1514564E810060A5C5;
 			remoteInfo = RestKit;
 		};
+		0ACACABB1B52E8E3007FC5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 53761325155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
+		0ACACABD1B52E8E3007FC5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 537D95C117ECC1FE0097C263;
+			remoteInfo = "SDWebImage+WebP";
+		};
+		0ACACABF1B52E8E3007FC5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 531041E0157EAFA400BBABC3;
+			remoteInfo = "SDWebImage+MKAnnotation";
+		};
+		0ACACAC11B52E8E3007FC5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4A2CADFF1AB4BB5300B6BC39;
+			remoteInfo = WebImage;
+		};
+		0ACACAC31B52E8FE007FC5DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 53761307155AD0D5005750A4;
+			remoteInfo = SDWebImage;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +121,11 @@
 		0ACACA771B52E4F5007FC5DB /* RestKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RestKit.xcodeproj; path = ../../Libraries/RestKit/RestKit.xcodeproj; sourceTree = "<group>"; };
 		0ACACA881B52E519007FC5DB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		0ACACA8A1B52E51D007FC5DB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		0ACACA8D1B52E76D007FC5DB /* EmployeeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeViewController.h; sourceTree = "<group>"; };
+		0ACACA8E1B52E76D007FC5DB /* EmployeeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeViewController.m; sourceTree = "<group>"; };
+		0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SDWebImage.xcodeproj; path = ../../Libraries/SDWebImage/SDWebImage.xcodeproj; sourceTree = "<group>"; };
+		0ACACAC61B52E90A007FC5DB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		0ACACAC81B52E96F007FC5DB /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "placeholder@2x.png"; path = "../../../../Downloads/placeholder@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0ACACAC71B52E90B007FC5DB /* ImageIO.framework in Frameworks */,
+				0ACACAC51B52E901007FC5DB /* libSDWebImage.a in Frameworks */,
 				0ACACA8C1B52E520007FC5DB /* libRestKit.a in Frameworks */,
 				0ACACA8B1B52E51D007FC5DB /* CoreData.framework in Frameworks */,
 				0ACACA891B52E519007FC5DB /* MobileCoreServices.framework in Frameworks */,
@@ -158,6 +204,9 @@
 			children = (
 				0ACACA651B52E29E007FC5DB /* EmployeesTableViewController.h */,
 				0ACACA661B52E29E007FC5DB /* EmployeesTableViewController.m */,
+				0ACACA8D1B52E76D007FC5DB /* EmployeeViewController.h */,
+				0ACACA8E1B52E76D007FC5DB /* EmployeeViewController.m */,
+				0ACACAC81B52E96F007FC5DB /* placeholder@2x.png */,
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
@@ -165,9 +214,11 @@
 		0ACACA761B52E4DF007FC5DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */,
+				0ACACA771B52E4F5007FC5DB /* RestKit.xcodeproj */,
+				0ACACAC61B52E90A007FC5DB /* ImageIO.framework */,
 				0ACACA8A1B52E51D007FC5DB /* CoreData.framework */,
 				0ACACA881B52E519007FC5DB /* MobileCoreServices.framework */,
-				0ACACA771B52E4F5007FC5DB /* RestKit.xcodeproj */,
 				0ACACA741B52E4B2007FC5DB /* SystemConfiguration.framework */,
 				0ACACA721B52E4AD007FC5DB /* Security.framework */,
 				0ACACA701B52E4A9007FC5DB /* CFNetwork.framework */,
@@ -187,6 +238,17 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		0ACACAB41B52E8E2007FC5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ACACABC1B52E8E3007FC5DB /* libSDWebImage.a */,
+				0ACACABE1B52E8E3007FC5DB /* libSDWebImage+WebP.a */,
+				0ACACAC01B52E8E3007FC5DB /* libSDWebImage+MKAnnotation.a */,
+				0ACACAC21B52E8E3007FC5DB /* WebImage.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -201,6 +263,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				0ACACAC41B52E8FE007FC5DB /* PBXTargetDependency */,
 				0ACACA871B52E503007FC5DB /* PBXTargetDependency */,
 			);
 			name = TestApp;
@@ -237,6 +300,10 @@
 				{
 					ProductGroup = 0ACACA781B52E4F5007FC5DB /* Products */;
 					ProjectRef = 0ACACA771B52E4F5007FC5DB /* RestKit.xcodeproj */;
+				},
+				{
+					ProductGroup = 0ACACAB41B52E8E2007FC5DB /* Products */;
+					ProjectRef = 0ACACAB31B52E8E2007FC5DB /* SDWebImage.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -275,6 +342,34 @@
 			remoteRef = 0ACACA841B52E4F5007FC5DB /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		0ACACABC1B52E8E3007FC5DB /* libSDWebImage.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libSDWebImage.a;
+			remoteRef = 0ACACABB1B52E8E3007FC5DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ACACABE1B52E8E3007FC5DB /* libSDWebImage+WebP.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+WebP.a";
+			remoteRef = 0ACACABD1B52E8E3007FC5DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ACACAC01B52E8E3007FC5DB /* libSDWebImage+MKAnnotation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libSDWebImage+MKAnnotation.a";
+			remoteRef = 0ACACABF1B52E8E3007FC5DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		0ACACAC21B52E8E3007FC5DB /* WebImage.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = WebImage.framework;
+			remoteRef = 0ACACAC11B52E8E3007FC5DB /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -284,6 +379,7 @@
 			files = (
 				0ACACA4B1B52E139007FC5DB /* Main.storyboard in Resources */,
 				0ACACA501B52E139007FC5DB /* LaunchScreen.xib in Resources */,
+				0ACACAC91B52E96F007FC5DB /* placeholder@2x.png in Resources */,
 				0ACACA4D1B52E139007FC5DB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,6 +393,7 @@
 			files = (
 				0ACACA451B52E139007FC5DB /* AppDelegate.m in Sources */,
 				0ACACA6C1B52E2D6007FC5DB /* Employee.m in Sources */,
+				0ACACA8F1B52E76D007FC5DB /* EmployeeViewController.m in Sources */,
 				0ACACA6F1B52E2E8007FC5DB /* SyncEngine.m in Sources */,
 				0ACACA671B52E29E007FC5DB /* EmployeesTableViewController.m in Sources */,
 				0ACACA421B52E139007FC5DB /* main.m in Sources */,
@@ -310,6 +407,11 @@
 			isa = PBXTargetDependency;
 			name = RestKit;
 			targetProxy = 0ACACA861B52E503007FC5DB /* PBXContainerItemProxy */;
+		};
+		0ACACAC41B52E8FE007FC5DB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			targetProxy = 0ACACAC31B52E8FE007FC5DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 

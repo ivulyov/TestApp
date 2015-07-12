@@ -12,6 +12,8 @@
 	<dict>
 		<key>15D9EE9F50EEE3A4A02E2E391708E4B91EEDC7C4</key>
 		<string>github.com:ivulyov/TestApp.git</string>
+		<key>272F684BDB48C12FB82F63EFB90FF2436BBA2473</key>
+		<string>https://chromium.googlesource.com/webm/libwebp</string>
 		<key>47A63E07BF2C4AE0426F985EBA351C687092A209</key>
 		<string>https://github.com/blakewatters/TransitionKit.git</string>
 		<key>822670D72DA6CB3E094E900F0D31C5A6027736AD</key>
@@ -24,6 +26,8 @@
 		<string>https://github.com/RestKit/RestKit.git</string>
 		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
 		<string>https://github.com/AFNetworking/AFNetworking.git</string>
+		<key>E28E36D423EC87798E52E2BF482E9F7A1E6479D6</key>
+		<string>https://github.com/rs/SDWebImage.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>TestApp/TestApp.xcodeproj/project.xcworkspace</string>
@@ -31,6 +35,8 @@
 	<dict>
 		<key>15D9EE9F50EEE3A4A02E2E391708E4B91EEDC7C4</key>
 		<string>../../..</string>
+		<key>272F684BDB48C12FB82F63EFB90FF2436BBA2473</key>
+		<string>../../..Libraries/SDWebImage/Vendors/libwebp/</string>
 		<key>47A63E07BF2C4AE0426F985EBA351C687092A209</key>
 		<string>../../..Libraries/RestKit/Vendor/TransitionKit/</string>
 		<key>822670D72DA6CB3E094E900F0D31C5A6027736AD</key>
@@ -43,6 +49,8 @@
 		<string>../../..Libraries/RestKit/</string>
 		<key>DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8</key>
 		<string>../../..Libraries/RestKit/Vendor/AFNetworking/</string>
+		<key>E28E36D423EC87798E52E2BF482E9F7A1E6479D6</key>
+		<string>../../..Libraries/SDWebImage/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>github.com:ivulyov/TestApp.git</string>
@@ -72,6 +80,14 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>272F684BDB48C12FB82F63EFB90FF2436BBA2473</string>
+			<key>IDESourceControlWCCName</key>
+			<string>libwebp</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>D78740BB5B159EA13C82AB5AF1D92A0F3C627237</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RestKit</string>
@@ -83,6 +99,14 @@
 			<string>B4A2CA0E82E9AE44702AB02729DCFB235C2643C9</string>
 			<key>IDESourceControlWCCName</key>
 			<string>RKValueTransformers</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E28E36D423EC87798E52E2BF482E9F7A1E6479D6</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SDWebImage</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>

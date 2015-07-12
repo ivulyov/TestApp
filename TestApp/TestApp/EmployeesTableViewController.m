@@ -11,6 +11,10 @@
 #import "Employee.h"
 #import "SyncEngine.h"
 
+#import "EmployeeViewController.h"
+
+#import <SDWebImage/UIImageView+WebCache.h>
+
 @interface EmployeesTableViewController ()
 
 @property (nonatomic, strong) NSArray *employees;
@@ -44,10 +48,16 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     static NSString * const CellIdentifier = @"EmployeeCell";
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier
+                                                            forIndexPath:indexPath];
     Employee *employee = self.employees[indexPath.row];
     cell.textLabel.text = employee.name;
     cell.detailTextLabel.text = employee.position;
+    [cell.imageView sd_setImageWithURL:employee.smallPicURL
+                      placeholderImage:[UIImage imageNamed:@"placeholder"]
+                             completed:^(UIImage *image, NSError *error, SDImageCacheType cacheType, NSURL *imageURL) {
+        cell.imageView.image = image;
+    }];
     
     return cell;
 }
@@ -55,8 +65,12 @@
 #pragma mark - Navigation
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    if ([segue.identifier isEqualToString:@"ShowEmployeeDetails"]) {
+        EmployeeViewController *controller = segue.destinationViewController;
+        NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
+        Employee *employee = self.employees[indexPath.row];
+        controller.employee = employee;
+    }
 }
 
 @end
