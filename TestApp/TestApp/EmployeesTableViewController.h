@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  EmployeesTableViewController.h
 //  TestApp
 //
 //  Created by Dmitry Ivulyov on 12.07.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface EmployeesTableViewController : UITableViewController
 
 @end
-
